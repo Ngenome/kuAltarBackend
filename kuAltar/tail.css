@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav_span {
+  @apply text-gray-300 opacity-80 hover:opacity-100 transition duration-300 hover:text-white ml-1 font-medium text-sm;
+}
+.nav_span_sub {
+  @apply text-gray-300 opacity-80 text-sm hover:opacity-100 transition duration-700 hover:text-white ml-1 font-medium;
+}
+.spotify_nav_li {
+  @apply mt-2 flex opacity-60 hover:opacity-100  w-40 p-1 ml-1 hover:rounded-md rounded-sm transition duration-700;
+}
+.spotify_sub_nav_li {
+  @apply mt-2 flex opacity-60 hover:opacity-100  w-40 p-1 ml-1 hover:rounded-md rounded-sm transition duration-700;
+}
+.line {
+  @apply w-px h-4 rounded-sm ml-0.5 bg-white;
+}
+.playlist_span {
+  @apply text-gray-400 font-normal text-sm ml-3 mt-8 hover:text-gray-100;
+}
+.image {
+  @apply w-20   h-full;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.modal {
+  @apply mt-4 hover:transform hover:scale-x-105 transition duration-500 w-60 h-20 ml-2 rounded flex  align-middle items-center bg-gray-900;
+}
+.modal_text {
+  @apply text-white ml-2 font-medium text-base;
+}
